@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>
+            Open-Weather-Map
+        </title>
+        <link   rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div id = 'UI'>
+            <input  id="city" type="text">
+            <button onclick="getWeather()">
+                Search
+            </button>
+        </div>
+        <table>
+            <tr>
+                <th>
+                    <pre>Maximum Temperature : </pre>
+                </th>
+                <td>
+                    <pre id="max"      >       </pre>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <pre>Minimum Temperature : </pre>
+                </th>
+                <td>
+                    <pre id="min"      >       </pre>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <pre>Condition           : </pre>
+                </th>
+                <td>
+                    <pre id="condition">      </pre>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
